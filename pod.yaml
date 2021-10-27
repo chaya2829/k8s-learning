@@ -5,6 +5,10 @@ metadata:
 spec: 
    containers:
        - name: nginx-chaya
-         image: nginx
+         image: nginx:1.21
          ports:
             - containerPort: 8080
+            
+       - name: watcher-chaya
+         image: watcher
+         
