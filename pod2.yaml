@@ -10,4 +10,4 @@ spec:
             - containerPort: 8080
             
        - name: watcher-chaya
-         image: afakharany/watcher
+         image: watcher
