@@ -7,4 +7,4 @@ spec:
        - name: nginx-chaya
          image: nginx
          ports:
-            -containerPort: 8080
+            - containerPort: 8080
